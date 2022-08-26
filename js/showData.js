@@ -32,8 +32,6 @@ $("#stocks").change(function () {
     $("input#maxProfit").val(maxProfit(prices)) ;
     $("input#devition").val(standardDeviation(prices).toFixed(2));
     $("input#mean").val(mean(prices).toFixed(2));
-    // $("select#stocks option:checked").val();
-    console.log(maxProfit(prices));
 });
 
 
@@ -50,7 +48,6 @@ var maxProfit = function (prices) {
         sell_date = i;
     }
     if (sell_date < 0) purchase_date = -1;
-    console.log(purchase_date + " " + sell_date);
     return maxprofit;
 };
 
