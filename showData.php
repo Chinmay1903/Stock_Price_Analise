@@ -58,10 +58,6 @@ while ($row = $result->fetch_assoc()) {
         <div id="dataBox" style="display: none; width:100%">
             <div id="chartContainer" style="height: 370px; width: 100%;"></div>
             <div>
-                <div class="buyselldate">
-                    <div><label for="sellDate">Sell Date</label><input type="text" id="sellDate" readonly></div>
-                    <div><label for="buyDate">Buy Date</label><input type="text" id="buyDate" readonly></div>
-                </div>
                 <div class="maxProfit">
                     <div><label for="maxProfit">Max Profit</label><input type="text" id="maxProfit" readonly></div>
                 </div>
